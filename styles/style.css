@@ -2,7 +2,7 @@ html {
     background-color: #fff;
 }
 
-.header{
+.header {
     font-family: "Raleway";
     font-weight: 400;
     display: grid;
@@ -12,8 +12,6 @@ html {
     align-items: center;
     padding: 90px 50px;
     grid-area: header;
-    margin-top: 47px;
-    
 }
 
 .header__menu {
@@ -41,13 +39,14 @@ a.header__link {
     margin-right: 31px;
 }
 
-.header__links-list-item_first{
+.header__links-list-item_first {
     list-style: none;
 }
 
-a.header__link_active{
+a.header__link_active {
     margin-right: 35px;
-    text-decoration: underline;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
 }
 
 .header__logo {
@@ -76,7 +75,7 @@ a.header__link_active{
     flex-direction: column;
 }
 
-.address__list-number a{
+.address__list-number a {
     text-decoration: none;
     border-bottom: 1px solid currentColor;
     padding-bottom: 1px;
