@@ -8,8 +8,7 @@ html {
     font-weight: 400;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    grid-template-areas: 
-    "header__menu header__logo address"; 
+    grid-template-areas: "header__menu header__logo address";
     align-items: center;
     padding: 90px 50px;
 }

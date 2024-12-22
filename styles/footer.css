@@ -12,7 +12,6 @@
 
 .footer__address {
     display: flex;
-    justify-content: end;
     flex-direction: column;
     align-items: start;
     justify-content: start;
@@ -27,14 +26,6 @@
 
 .address__list-street {
     margin-top: 5px;
-}
-
-
-
-.footer__links-list-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .footer__menu {
@@ -53,6 +44,9 @@
 }
 
 .footer__links-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     border-bottom: 1px solid #000;
 }
 
