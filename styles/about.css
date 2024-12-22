@@ -1,62 +1,61 @@
 .about__column {
-    display: grid;
-    grid-template-columns: 334px auto;
-    grid-template-areas:
-    "about__logo about__content";
-    margin: 0px 24px 120px 24px;
+  display: grid;
+  grid-template-columns: 334px auto;
+  grid-template-areas: "about__logo about__content";
+  margin: 0px 24px 120px 24px;
 }
 
 .about__logo {
-    display: flex;
-    margin: 36px 0 0 49px;
-    grid-area: about__logo;
-    width: 240px;
-    height: 240px;
-    background-color: black;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  margin: 36px 0 0 49px;
+  grid-area: about__logo;
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 }
 
 .about__logo-image {
-    width: 148px;
-    height: 114px;
+  width: 148px;
+  height: 114px;
 }
 
 .about__content {
-    grid-area: about__content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 138px;
-    font-family: 'Raleway', sans-serif;
+  grid-area: about__content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 138px;
+  font-family: "Raleway", sans-serif;
 }
 .about__title {
-    text-transform: uppercase;
-    align-self: start;
-    margin-left: 25px;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 46.96px;
+  text-transform: uppercase;
+  align-self: start;
+  margin-left: 25px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.96px;
 }
 
 .about__text {
-    display: flex;
-    width: 688px;
-    word-wrap: break-word;
-    margin: 100px 0 0 20px;
-    font-size: 20px;
-    line-height: 24px;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  width: 688px;
+  word-wrap: break-word;
+  margin: 100px 0 0 20px;
+  font-size: 20px;
+  line-height: 24px;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .about__text p {
-    margin-bottom: 3px;
-    width: 688px;
+  margin-bottom: 3px;
+  width: 688px;
 }
 
 .about__text p:nth-of-type(2) {
-    width: 693px;
+  width: 693px;
 }
