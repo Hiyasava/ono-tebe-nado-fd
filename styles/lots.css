@@ -2,7 +2,7 @@
   margin: 180px 24px 120px 24px;
   height: auto;
   width: 1052;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
 }

@@ -22,7 +22,7 @@
 
 .cover__title {
   letter-spacing: 0.3em;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   display: flex;
   font-weight: 700;
   font-size: 100px;
@@ -50,7 +50,7 @@
 }
 
 .cover__description {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   margin-top: 109px;
   color: #fff;
   display: flex;
