@@ -46,6 +46,7 @@ a.header__link_active {
 .header__logo {
   grid-area: header__logo;
   display: flex;
+  margin-top: 3px;
 }
 
 .header__logo-image {

@@ -7,7 +7,7 @@
 
 .about__logo {
   display: flex;
-  margin: 36px 0 0 49px;
+  margin: 34px 0 0 47px;
   grid-area: about__logo;
   width: 240px;
   height: 240px;
@@ -28,7 +28,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 138px;
+  margin-top: 136px;
   font-family: "Raleway", sans-serif;
 }
 .about__title {
