@@ -19,7 +19,6 @@
 }
 
 .about__logo-image {
-    background-color: #000;
     width: 148px;
     height: 114px;
 }
@@ -55,4 +54,9 @@
 
 .about__text p {
     margin-bottom: 3px;
+    width: 688px;
+}
+
+.about__text p:nth-of-type(2) {
+    width: 693px;
 }
