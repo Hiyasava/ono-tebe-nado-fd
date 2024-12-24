@@ -1,12 +1,11 @@
 .header {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-weight: 400;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   grid-template-areas: "header__menu header__logo address";
   align-items: center;
   padding: 90px 50px;
-  margin-top: 3px;
 }
 
 .header__menu {
@@ -29,10 +28,9 @@
 }
 
 a.header__link {
-  margin-right: 35px;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 1px;
+  text-transform: lowercase;
   text-decoration: none;
+  margin-right: 31px;
 }
 
 .header__links-list-item_first {
@@ -40,10 +38,9 @@ a.header__link {
 }
 
 a.header__link_active {
-  border-bottom: none;
-  text-transform: lowercase;
-  text-decoration: none;
-  margin-right: 31px;
+  margin-right: 35px;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
 }
 
 .header__logo {
@@ -70,10 +67,15 @@ a.header__link_active {
   margin: 2px 0px 0px 150px;
   display: flex;
   flex-direction: column;
-  list-style: none;
 }
 
-.address__list-item a {
+.address__list-number a {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+}
+
+.address__list-mail a {
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 1px;

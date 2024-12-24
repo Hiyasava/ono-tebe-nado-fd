@@ -7,7 +7,7 @@
 
 .about__logo {
   display: flex;
-  margin: 34px 0 0 47px;
+  margin: 36px 0 0 49px;
   grid-area: about__logo;
   width: 240px;
   height: 240px;
@@ -28,7 +28,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 136px;
+  margin-top: 138px;
   font-family: "Raleway", sans-serif;
 }
 .about__title {
@@ -42,8 +42,7 @@
 
 .about__text {
   display: flex;
-  max-width: 693px;
-  width: 100%;
+  width: 688px;
   word-wrap: break-word;
   margin: 100px 0 0 20px;
   font-size: 20px;
@@ -54,11 +53,9 @@
 
 .about__text p {
   margin-bottom: 3px;
-  max-width: 688px;
-  width: 100%;
+  width: 688px;
 }
 
-.about__text .about__text-paragraph {
-  max-width: 693px;
-  width: 100%;
+.about__text p:nth-of-type(2) {
+  width: 693px;
 }

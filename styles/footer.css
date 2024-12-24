@@ -1,17 +1,14 @@
 .footer {
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  margin-top: 179px;
+  font-family: "Raleway";
+  margin-top: 177px;
   width: 100%;
-  min-height: 190px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "footer__address footer__menu footer__social";
   padding: 0;
 }
-.footer__address__list {
-  list-style-type: none;
-}
+
 .footer__address {
   display: flex;
   flex-direction: column;
@@ -24,11 +21,6 @@
 .address__list-number {
   font-size: 18px;
   line-height: 24.3px;
-}
-
-.address__list-number a {
-  text-decoration: none;
-  border-bottom: 1px solid #000;
 }
 
 .address__list-street {
@@ -48,17 +40,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  list-style: none;
 }
 
 .footer__links-list-item {
-  list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.footer__link_active {
   border-bottom: 1px solid #000;
 }
 
@@ -72,12 +59,12 @@ a.footer__link {
 
 .footer__social-list {
   width: auto;
+  height: 48px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   margin: 0 50px;
-  list-style-type: none;
 }
 
 .footer__social-list-item {
