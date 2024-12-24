@@ -42,7 +42,8 @@
 
 .about__text {
   display: flex;
-  width: 688px;
+  max-width: 693px;
+  width: 100%;
   word-wrap: break-word;
   margin: 100px 0 0 20px;
   font-size: 20px;
@@ -53,9 +54,11 @@
 
 .about__text p {
   margin-bottom: 3px;
-  width: 688px;
+  max-width: 688px;
+  width: 100%;
 }
 
-.about__text p:nth-of-type(2) {
-  width: 693px;
+.about__text .about__text-paragraph {
+  max-width: 693px;
+  width: 100%;
 }
