@@ -11,13 +11,6 @@
   position: relative;
 }
 
-.overlay {
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 2;
-}
-
 .cover-content {
   padding: 165px 50px 0 50px;
   min-height: 757px;
