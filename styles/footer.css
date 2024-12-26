@@ -7,7 +7,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "footer__address footer__menu footer__social";
   padding: 0;
-
+  padding-top: 2px;
 }
 .footer__address__list {
   list-style-type: none;
@@ -22,7 +22,7 @@
 }
 
 .address__list-street {
-  margin-top: 5px;
+  margin-top: 3px;
 }
 
 .footer__menu {
@@ -64,7 +64,6 @@
 
 .footer__social-list {
   width: auto;
-  height: 48px;
   display: flex;
   flex-direction: row;
   align-items: center;
