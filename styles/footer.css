@@ -10,7 +10,7 @@
 }
 .footer__address__list {
   list-style-type: none;
-
+  padding-top: 3px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -18,10 +18,6 @@
   grid-area: footer__address;
   margin-left: 50px;
   gap: 3px;
-}
-
-.address__list-street {
-  margin-top: 5px;
 }
 
 .footer__menu {
@@ -50,6 +46,10 @@
 .footer__links-list-item-active {
   text-decoration: none;
   border: none;
+}
+
+.address__list-street {
+  margin-top: 2px;
 }
 
 .footer__link {
