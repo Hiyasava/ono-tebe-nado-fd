@@ -13,7 +13,6 @@
 
 .cover-content {
   padding: 165px 50px 0 50px;
-  min-height: 757px;
   height: 100%;
   width: 100%;
   justify-content: space-between;
@@ -31,6 +30,7 @@
   width: auto;
   flex-direction: column;
   justify-content: space-between;
+  background-color: aqua;
 }
 
 .aligned-text {
@@ -40,23 +40,22 @@
 
 .aligned-text_center {
   align-self: center;
-  position: relative;
-  left: 15px;
-  top: 18px;
+  justify-self: center;
+  margin-top: 18px;
+  margin-left: 30px;
 }
 
 .aligned-text_right {
+  padding-top: 19px;
   justify-self: end;
   align-self: end;
-  margin-right: 10px;
-  position: relative;
-  top: 37px;
-  left: 40px;
+  background-color: blueviolet;
+  margin-right: -0.3em;
 }
 
 .cover__description {
   font-family: "Raleway", sans-serif;
-  margin-top: 140px;
+  margin-top: 100px;
   color: #fff;
   display: flex;
   flex-direction: row;
