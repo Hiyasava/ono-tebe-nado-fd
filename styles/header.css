@@ -71,6 +71,7 @@ a.header__link_active {
   display: flex;
   flex-direction: column;
   list-style: none;
+  font-style: normal
 }
 
 .address__list-item a {
