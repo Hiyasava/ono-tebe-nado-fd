@@ -42,7 +42,8 @@
 
 .about__text {
   display: flex;
-  min-width: 688px;
+  max-width: 688px;
+  width: 100%;
   overflow-wrap: break-word;
   margin: 100px 0 0 20px;
   font-size: 20px;
@@ -53,9 +54,11 @@
 
 .about__text p {
   margin-bottom: 3px;
-  width: 688px;
+  max-width: 688px;
+  width: 100%;
 }
 
 .paragraph-two {
-  min-width: 690px;
+  max-width: 688px;
+  width: 100%;
 }
