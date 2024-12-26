@@ -45,7 +45,6 @@
   border-bottom: 1px solid #000;
 }
 
-
 .footer__links-list-item-active {
   text-decoration: none;
   border: none;
@@ -54,7 +53,6 @@
 .footer__link {
   text-decoration: none;
 }
-
 
 .footer__social {
   grid-area: footer__social;
