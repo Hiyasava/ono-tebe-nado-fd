@@ -48,10 +48,6 @@
   border: none;
 }
 
-.address__list-street {
-  margin-top: 2px;
-}
-
 .footer__link {
   text-decoration: none;
 }
@@ -64,6 +60,7 @@
 .footer__social-list {
   width: auto;
   display: flex;
+  height: 48px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
