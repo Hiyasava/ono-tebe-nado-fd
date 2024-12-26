@@ -30,7 +30,6 @@
   width: auto;
   flex-direction: column;
   justify-content: space-between;
-  background-color: aqua;
 }
 
 .aligned-text {
@@ -46,16 +45,18 @@
 }
 
 .aligned-text_right {
-  padding-top: 19px;
+  padding-top: 16px;
   justify-self: end;
   align-self: end;
-  background-color: blueviolet;
-  margin-right: -0.3em;
+}
+
+.no-spacing {
+  letter-spacing: 0;
 }
 
 .cover__description {
   font-family: "Raleway", sans-serif;
-  margin-top: 100px;
+  margin-top: 105px;
   color: #fff;
   display: flex;
   flex-direction: row;
