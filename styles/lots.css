@@ -75,13 +75,6 @@
   text-transform: none;
 }
 
-.overlay {
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 2;
-}
-
 .lots__look-more-link {
   margin-left: 40px;
   border-bottom: 1px solid #000;
