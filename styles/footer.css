@@ -3,7 +3,6 @@
   font-family: "Raleway", sans-serif;
   margin-top: 177px;
   width: 100%;
-  height: 180px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "footer__address footer__menu footer__social";
@@ -64,7 +63,6 @@
 
 .footer__social-list {
   width: auto;
-  height: 48px;
   display: flex;
   flex-direction: row;
   align-items: center;
