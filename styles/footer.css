@@ -3,11 +3,11 @@
   font-family: "Raleway", sans-serif;
   margin-top: 177px;
   width: 100%;
-  height: 180px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "footer__address footer__menu footer__social";
   padding: 0;
+
 }
 .footer__address__list {
   list-style-type: none;
